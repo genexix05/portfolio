@@ -1,10 +1,6 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 export default function Home() {
   return (
     <>
-      <Header />
       <div className="container mx-auto">
         <h1 className="text-5xl text-center mt-20">
           Bienvenido a Mi Portafolio
@@ -20,7 +16,6 @@ export default function Home() {
         <div className="grid grid-cols-3 gap-4">
         </div>
       </section>
-      <Footer />
     </>
   );
 }
