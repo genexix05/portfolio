@@ -43,3 +43,24 @@ body {
     text-wrap: balance;
   }
 }
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width:  83.333333%;;
+  max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid #cbd5e0;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  margin-top: 1.25rem;
+  border-sizing: border-box;
+}
+
