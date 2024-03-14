@@ -3,16 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --light-foreground-rgb: 0, 0, 0;
+  --light-background-start-rgb: 214, 219, 220;
+  --light-background-end-rgb: 255, 255, 255;
+
+  --dark-foreground-rgb: 255, 255, 255;
+  --dark-background-start-rgb: 0, 0, 0;
+  --dark-background-end-rgb: 128, 0, 128; /* Morado oscuro */
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: var(--light-foreground-rgb);
+    --background-start-rgb: var(--light-background-start-rgb);
+    --background-end-rgb: var(--light-background-end-rgb);
+  }
+}
+
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) {
+  :root {
+    --foreground-rgb: var(--dark-foreground-rgb);
+    --background-start-rgb: var(--dark-background-start-rgb);
+    --background-end-rgb: var(--dark-background-end-rgb);
   }
 }
 

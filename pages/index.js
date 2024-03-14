@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
     return (
-            <main className="container mx-auto px-4">
+            <main className="container mx-auto">
                 <section className="text-center mt-12">
                     <h1 className="text-5xl font-bold text-gray-800">Bienvenido a Mi Portafolio</h1>
                     <p className="text-xl mt-4">Descubre mis proyectos y aprende más sobre mí.</p>
