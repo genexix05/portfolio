@@ -9,7 +9,6 @@ export default function Home() {
         <h1 className="text-5xl text-center mt-20">
           Bienvenido a Mi Portafolio
         </h1>
-        // Más contenido aquí
       </div>
       <section className="my-20">
         <h2 className="text-3xl font-bold">Sobre Mí</h2>
@@ -19,7 +18,6 @@ export default function Home() {
       <section className="my-20">
         <h2 className="text-3xl font-bold">Proyectos</h2>
         <div className="grid grid-cols-3 gap-4">
-          {/* Componentes de proyecto aquí */}
         </div>
       </section>
 
